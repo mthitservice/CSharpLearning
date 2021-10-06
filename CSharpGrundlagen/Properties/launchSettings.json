@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "CSharpGrundlagen": {
+      "commandName": "Project",
+      "commandLineArgs": "/p /t"
+    }
+  }
+}
