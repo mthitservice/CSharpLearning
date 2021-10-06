@@ -1,0 +1,14 @@
+C:\Users\Michael.Lindner\Source\repos\CSharpGrundlagen\bin\Debug\netcoreapp3.1\CSharpGrundlagen.exe
+C:\Users\Michael.Lindner\Source\repos\CSharpGrundlagen\bin\Debug\netcoreapp3.1\CSharpGrundlagen.deps.json
+C:\Users\Michael.Lindner\Source\repos\CSharpGrundlagen\bin\Debug\netcoreapp3.1\CSharpGrundlagen.runtimeconfig.json
+C:\Users\Michael.Lindner\Source\repos\CSharpGrundlagen\bin\Debug\netcoreapp3.1\CSharpGrundlagen.runtimeconfig.dev.json
+C:\Users\Michael.Lindner\Source\repos\CSharpGrundlagen\bin\Debug\netcoreapp3.1\CSharpGrundlagen.dll
+C:\Users\Michael.Lindner\Source\repos\CSharpGrundlagen\bin\Debug\netcoreapp3.1\CSharpGrundlagen.pdb
+C:\Users\Michael.Lindner\Source\repos\CSharpGrundlagen\obj\Debug\netcoreapp3.1\CSharpGrundlagen.csproj.AssemblyReference.cache
+C:\Users\Michael.Lindner\Source\repos\CSharpGrundlagen\obj\Debug\netcoreapp3.1\CSharpGrundlagen.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Michael.Lindner\Source\repos\CSharpGrundlagen\obj\Debug\netcoreapp3.1\CSharpGrundlagen.AssemblyInfoInputs.cache
+C:\Users\Michael.Lindner\Source\repos\CSharpGrundlagen\obj\Debug\netcoreapp3.1\CSharpGrundlagen.AssemblyInfo.cs
+C:\Users\Michael.Lindner\Source\repos\CSharpGrundlagen\obj\Debug\netcoreapp3.1\CSharpGrundlagen.csproj.CoreCompileInputs.cache
+C:\Users\Michael.Lindner\Source\repos\CSharpGrundlagen\obj\Debug\netcoreapp3.1\CSharpGrundlagen.dll
+C:\Users\Michael.Lindner\Source\repos\CSharpGrundlagen\obj\Debug\netcoreapp3.1\CSharpGrundlagen.pdb
+C:\Users\Michael.Lindner\Source\repos\CSharpGrundlagen\obj\Debug\netcoreapp3.1\CSharpGrundlagen.genruntimeconfig.cache
