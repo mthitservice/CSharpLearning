@@ -88,6 +88,7 @@ namespace CSharpGrundlagen.Klassen.Allgemein
         // Vererbung
         // Polymorphy
         // Kapselung
+        // Events
         // Objekt
         // Klasse
 

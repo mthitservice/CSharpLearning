@@ -1,0 +1,14 @@
+C:\Users\Michael.Lindner\Source\Repos\CSharpLearning\ErweiterteOOP\bin\Debug\netcoreapp3.1\ErweiterteOOP.exe
+C:\Users\Michael.Lindner\Source\Repos\CSharpLearning\ErweiterteOOP\bin\Debug\netcoreapp3.1\ErweiterteOOP.deps.json
+C:\Users\Michael.Lindner\Source\Repos\CSharpLearning\ErweiterteOOP\bin\Debug\netcoreapp3.1\ErweiterteOOP.runtimeconfig.json
+C:\Users\Michael.Lindner\Source\Repos\CSharpLearning\ErweiterteOOP\bin\Debug\netcoreapp3.1\ErweiterteOOP.runtimeconfig.dev.json
+C:\Users\Michael.Lindner\Source\Repos\CSharpLearning\ErweiterteOOP\bin\Debug\netcoreapp3.1\ErweiterteOOP.dll
+C:\Users\Michael.Lindner\Source\Repos\CSharpLearning\ErweiterteOOP\bin\Debug\netcoreapp3.1\ErweiterteOOP.pdb
+C:\Users\Michael.Lindner\Source\Repos\CSharpLearning\ErweiterteOOP\obj\Debug\netcoreapp3.1\ErweiterteOOP.csproj.AssemblyReference.cache
+C:\Users\Michael.Lindner\Source\Repos\CSharpLearning\ErweiterteOOP\obj\Debug\netcoreapp3.1\ErweiterteOOP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Michael.Lindner\Source\Repos\CSharpLearning\ErweiterteOOP\obj\Debug\netcoreapp3.1\ErweiterteOOP.AssemblyInfoInputs.cache
+C:\Users\Michael.Lindner\Source\Repos\CSharpLearning\ErweiterteOOP\obj\Debug\netcoreapp3.1\ErweiterteOOP.AssemblyInfo.cs
+C:\Users\Michael.Lindner\Source\Repos\CSharpLearning\ErweiterteOOP\obj\Debug\netcoreapp3.1\ErweiterteOOP.csproj.CoreCompileInputs.cache
+C:\Users\Michael.Lindner\Source\Repos\CSharpLearning\ErweiterteOOP\obj\Debug\netcoreapp3.1\ErweiterteOOP.dll
+C:\Users\Michael.Lindner\Source\Repos\CSharpLearning\ErweiterteOOP\obj\Debug\netcoreapp3.1\ErweiterteOOP.pdb
+C:\Users\Michael.Lindner\Source\Repos\CSharpLearning\ErweiterteOOP\obj\Debug\netcoreapp3.1\ErweiterteOOP.genruntimeconfig.cache

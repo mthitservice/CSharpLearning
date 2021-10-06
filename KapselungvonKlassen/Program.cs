@@ -9,6 +9,7 @@ namespace KapselungvonKlassen
         {
             KlasseAuto a = new KlasseAuto();
             a.hupen();
+         
             Console.WriteLine("Hello World!");
         }
     }
