@@ -26,7 +26,8 @@ namespace Serialisierung
         // Methoden
         public void start()
         {
-           // laden(@"c:\temp\autos.xyz");
+            // laden(@"c:\temp\autos.xyz");
+            ladenXML(@"c:\temp\autos.xml");
             // 3 Autos hinzufügen
             Auto a1 = new Auto();
             a1.Breite = 16;
@@ -100,6 +101,30 @@ namespace Serialisierung
             xser.Serialize(fs, Autoliste);
 
           
+            fs.Flush();
+            fs.Close();
+            fs.Dispose();
+
+
+
+        }
+
+        void ladenXML(string pfad)
+        {
+            // Filestream zum Laden von Dateien öffnen
+            FileStream fs = File.Open(pfad,FileMode.Open);
+            // Serialisierungsobjekt
+
+            // Krypto Serialisierer
+
+            // Zip 
+
+            List<Auto> templ;
+
+            XmlSerializer xser = new XmlSerializer(typeof(List<Auto>));
+            templ=(List<Auto>)xser.Deserialize(fs);
+            Autoliste = templ;
+
             fs.Flush();
             fs.Close();
             fs.Dispose();
