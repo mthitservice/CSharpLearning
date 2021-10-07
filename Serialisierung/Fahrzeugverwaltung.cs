@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
+using System.Runtime.Serialization.Formatters.Binary;
 using System.Text;
 
 namespace Serialisierung
@@ -43,6 +45,9 @@ namespace Serialisierung
             a3.Marke = "Skoda";
             Autoliste.Add(a3);
 
+            // Speichern
+            this.speichern(@"c:\temp\autos.xyz");
+
             // Zeige Fahrzeuge
             this.zeigeFahrzeuge(Autoliste);
             // Warte auf Taste
@@ -52,6 +57,21 @@ namespace Serialisierung
         public void zeigeFahrzeuge(List<IFahrzeug> Fahrzeuge)
         {
             ansicht.zeigeFahrzeuge(Fahrzeuge);
+        }
+
+        void speichern(string pfad)
+        {
+            // Filestream zum speichern von Dateien öffnen
+            Stream fs = File.OpenWrite(pfad);
+            // Serialisierungsobjekt
+            BinaryFormatter formatter = new BinaryFormatter();
+            formatter.Serialize(fs, Autoliste);
+            fs.Flush();
+            fs.Close();
+            fs.Dispose();
+
+
+
         }
     }
 }

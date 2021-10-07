@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using System.Text;
 
 namespace Serialisierung
-{
-
+{ // Kennzeichn das diese Klasse serialisirt werden darf
+    [Serializable]
     // Modellklasse(reale Strukturen abbilden) ( ohne Funktionen)
    public class Auto: IFahrzeug
     {
