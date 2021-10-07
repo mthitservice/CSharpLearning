@@ -8,10 +8,12 @@ namespace Serialisierung
     // Modellklasse(reale Strukturen abbilden) ( ohne Funktionen)
    public class Auto: IFahrzeug
     {
+        private float _tankinhalt { get; set; }
         public int Breite { get; set; }
         public int Laenge { get; set; }
         public string Marke { get; set; }
         public string Fznr { get; set; }
 
     }
+    
 }

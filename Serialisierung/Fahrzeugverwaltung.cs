@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.Text;
+using System.Xml.Serialization;
 
 namespace Serialisierung
 {
@@ -25,6 +26,7 @@ namespace Serialisierung
         // Methoden
         public void start()
         {
+            laden(@"c:\temp\autos.xyz");
             // 3 Autos hinzufügen
             Auto a1 = new Auto();
             a1.Breite = 16;
@@ -46,8 +48,8 @@ namespace Serialisierung
             Autoliste.Add(a3);
 
             // Speichern
-            this.speichern(@"c:\temp\autos.xyz");
-
+            // this.speichern(@"c:\temp\autos.xyz");
+            speichernXML(@"c:\temp\autos.xml");
             // Zeige Fahrzeuge
             this.zeigeFahrzeuge(Autoliste);
             // Warte auf Taste
@@ -64,8 +66,56 @@ namespace Serialisierung
             // Filestream zum speichern von Dateien öffnen
             Stream fs = File.OpenWrite(pfad);
             // Serialisierungsobjekt
+            
+            // Krypto Serialisierer
+            
+            // Zip 
+            
             BinaryFormatter formatter = new BinaryFormatter();
+           
+            
+            
             formatter.Serialize(fs, Autoliste);
+            fs.Flush();
+            fs.Close();
+            fs.Dispose();
+
+
+
+        }
+
+        void speichernXML(string pfad)
+        {
+            // Filestream zum speichern von Dateien öffnen
+            Stream fs = File.OpenWrite(pfad);
+            // Serialisierungsobjekt
+
+            // Krypto Serialisierer
+
+            // Zip 
+
+            XmlSerializer xser = new XmlSerializer(typeof(List<IFahrzeug>));
+            xser.Serialize(fs, Autoliste);
+
+          
+            fs.Flush();
+            fs.Close();
+            fs.Dispose();
+
+
+
+        }
+        void laden(string pfad)
+        {
+            // Filestream zum speichern von Dateien öffnen
+            FileStream fs = File.Open(pfad,FileMode.Open);
+            // Serialisierungsobjekt
+            BinaryFormatter formatter = new BinaryFormatter();
+            List<IFahrzeug> templist = (List<IFahrzeug>)formatter.Deserialize(fs);
+
+
+            Autoliste = templist;
+           
             fs.Flush();
             fs.Close();
             fs.Dispose();
