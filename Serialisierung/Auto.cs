@@ -13,6 +13,7 @@ namespace Serialisierung
         public int Breite { get; set; }
         [System.Xml.Serialization.XmlElement("LNG")]
         public int Laenge { get; set; }
+        [System.Text.Json.Serialization.JsonPropertyName("Fahrzeugmarke")]
         public string Marke { get; set; }
         [System.Xml.Serialization.XmlAttribute("Fahrzeugnummer")]
        

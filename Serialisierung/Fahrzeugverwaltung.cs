@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.IO.Compression;
+using System.Net.Sockets;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.Text;
 using System.Text.Json;
@@ -29,7 +31,7 @@ namespace Serialisierung
         {
             // laden(@"c:\temp\autos.xyz");
             // ladenXML(@"c:\temp\autos.xml");
-            ladenJSON(@"c:\temp\autos.json");
+            //ladenJSON(@"c:\temp\autos.json");
             // 3 Autos hinzufügen
             Auto a1 = new Auto();
             a1.Breite = 16;
@@ -129,17 +131,22 @@ namespace Serialisierung
 
         void speichernJSON(string pfad)
         {
-            // Filestream zum speichern von Dateien öffnen
-            Stream fs = File.OpenWrite(pfad);
-            // Serialisierungsobjekt
-            JsonSerializer.SerializeAsync(fs, Autoliste);
+                    
 
-            fs.Flush();
-            fs.Close();
-            fs.Dispose();
-           
+                // Filestream zum speichern von Dateien öffnen
+                using (Stream fs = File.OpenWrite(pfad))
+                {
+                    //Komprimierungsstream
+                    using (GZipStream zip = new GZipStream(fs, CompressionMode.Compress))
+                    {
+                        // Serialisierungsobjekt
 
+                        JsonSerializer.SerializeAsync(zip, Autoliste);
+                    }
 
+                }
+
+          
 
 
 
