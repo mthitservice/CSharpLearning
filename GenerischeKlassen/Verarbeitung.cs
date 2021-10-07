@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Linq;
 
 namespace GenerischeKlassen
 {
@@ -25,12 +26,41 @@ namespace GenerischeKlassen
             // Generika
 
             List<Fahrzeug> fahrzeugliste = new List<Fahrzeug>();
+
+            // Dictonary
+            IDictionary<string, Fahrzeug> fzliste = new Dictionary<string, Fahrzeug>();
+            
+
+
+
             Auto a1 = new Auto();
+            a1.breite = 12;
+            a1.laenge = 15;
+            a1.Marke = "Skoda";
+            a1.fznr = "afznr1";
             Motorad m1 = new Motorad();
+            m1.breite = 5;
+            m1.laenge = 8;
+            m1.Marke = "KTM";
+            m1.fznr = "mfznr1";
             fahrzeugliste.Add(a1);
             fahrzeugliste.Add(m1);
+            fzliste.Add(a1.fznr, a1);
+            fzliste.Add(m1.fznr, m1);
+            foreach (var z in fzliste)
+            {
 
-            foreach (object x in fahrzeugliste)
+                Console.WriteLine("Key:{0},value:{1}", z.Key, z.Value);
+            }
+
+            Fahrzeug fm;
+            fzliste.TryGetValue("afznr1", out fm);
+
+            Console.WriteLine("gefunden:{0}",(Auto)fm);
+
+
+
+                foreach (object x in fahrzeugliste)
             {
 
                 switch (x.GetType().ToString())
@@ -38,17 +68,34 @@ namespace GenerischeKlassen
                     case "GenerischeKlassen.Auto":
                         Auto y = (Auto)x;
                         y.hupen();
+                        Fahrzeug fz = (Fahrzeug)y;
+                        List<int> tankinhalt= new List<int>() { 4, 5, 2 };
+                        fz.tanken<int>(tankinhalt);
+
+
                         break;
                     case "GenerischeKlassen.Motorad":
                         Motorad u = (Motorad)x;
                         u.hupen();
+                        Fahrzeug fz1 = (Fahrzeug)u;
+                        List<float> tankinhalt1 = new List<float>() { 4, 6, 2 };
+                        fz1.tanken<float>(tankinhalt1);
                         break;
 
 
                 }
                 Console.WriteLine("Typ:{0}", x.GetType());
 
-              //  x.hupen();
+                //  x.hupen();
+                // Linq zum abfragen von Arrays und dynamische Typen
+
+                var teet = fahrzeugliste.Where(g => g.Marke == "KTM").ToList();
+
+
+
+
+
+
 
             }
 

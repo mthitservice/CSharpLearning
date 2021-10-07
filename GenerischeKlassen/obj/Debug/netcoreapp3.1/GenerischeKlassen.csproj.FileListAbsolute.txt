@@ -11,3 +11,4 @@ C:\Users\Michael.Lindner\Source\Repos\CSharpLearning\GenerischeKlassen\obj\Debug
 C:\Users\Michael.Lindner\Source\Repos\CSharpLearning\GenerischeKlassen\obj\Debug\netcoreapp3.1\GenerischeKlassen.dll
 C:\Users\Michael.Lindner\Source\Repos\CSharpLearning\GenerischeKlassen\obj\Debug\netcoreapp3.1\GenerischeKlassen.pdb
 C:\Users\Michael.Lindner\Source\Repos\CSharpLearning\GenerischeKlassen\obj\Debug\netcoreapp3.1\GenerischeKlassen.genruntimeconfig.cache
+C:\Users\Michael.Lindner\Source\Repos\CSharpLearning\GenerischeKlassen\obj\Debug\netcoreapp3.1\GenerischeKlassen.csproj.AssemblyReference.cache
