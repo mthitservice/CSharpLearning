@@ -1,0 +1,13 @@
+C:\Users\Michael.Lindner\Source\Repos\CSharpLearning\StrukurvsKlasse\obj\Debug\netcoreapp3.1\StrukurvsKlasse.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Michael.Lindner\Source\Repos\CSharpLearning\StrukurvsKlasse\obj\Debug\netcoreapp3.1\StrukurvsKlasse.AssemblyInfoInputs.cache
+C:\Users\Michael.Lindner\Source\Repos\CSharpLearning\StrukurvsKlasse\obj\Debug\netcoreapp3.1\StrukurvsKlasse.AssemblyInfo.cs
+C:\Users\Michael.Lindner\Source\Repos\CSharpLearning\StrukurvsKlasse\obj\Debug\netcoreapp3.1\StrukurvsKlasse.csproj.CoreCompileInputs.cache
+C:\Users\Michael.Lindner\Source\Repos\CSharpLearning\StrukurvsKlasse\bin\Debug\netcoreapp3.1\StrukurvsKlasse.exe
+C:\Users\Michael.Lindner\Source\Repos\CSharpLearning\StrukurvsKlasse\bin\Debug\netcoreapp3.1\StrukurvsKlasse.deps.json
+C:\Users\Michael.Lindner\Source\Repos\CSharpLearning\StrukurvsKlasse\bin\Debug\netcoreapp3.1\StrukurvsKlasse.runtimeconfig.json
+C:\Users\Michael.Lindner\Source\Repos\CSharpLearning\StrukurvsKlasse\bin\Debug\netcoreapp3.1\StrukurvsKlasse.runtimeconfig.dev.json
+C:\Users\Michael.Lindner\Source\Repos\CSharpLearning\StrukurvsKlasse\bin\Debug\netcoreapp3.1\StrukurvsKlasse.dll
+C:\Users\Michael.Lindner\Source\Repos\CSharpLearning\StrukurvsKlasse\bin\Debug\netcoreapp3.1\StrukurvsKlasse.pdb
+C:\Users\Michael.Lindner\Source\Repos\CSharpLearning\StrukurvsKlasse\obj\Debug\netcoreapp3.1\StrukurvsKlasse.dll
+C:\Users\Michael.Lindner\Source\Repos\CSharpLearning\StrukurvsKlasse\obj\Debug\netcoreapp3.1\StrukurvsKlasse.pdb
+C:\Users\Michael.Lindner\Source\Repos\CSharpLearning\StrukurvsKlasse\obj\Debug\netcoreapp3.1\StrukurvsKlasse.genruntimeconfig.cache

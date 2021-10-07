@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CSharpGrundlagen.Klassen.Allgemein.KlasseAuto">
+    <Position X="0.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAEAgAAAAAQAAAAAAAgAAAAAAAAAEA=</HashCode>
+      <FileName>MeineersteKlasse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSharpGrundlagen.Klassen.Allgemein.KlasseLKW">
+    <Position X="2.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAEA=</HashCode>
+      <FileName>MeineersteKlasse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSharpGrundlagen.Klassen.Allgemein.MeineErsteKlasse">
+    <Position X="5.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAQAAAIACAAAAACQIEAAAgAA=</HashCode>
+      <FileName>MeineersteKlasse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

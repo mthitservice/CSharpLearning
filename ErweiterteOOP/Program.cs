@@ -16,7 +16,7 @@ namespace ErweiterteOOP
             auto.Tankinhalt = 4;
             auto.hoehe = 5;
             auto.breite = 4;
-            auto.Reserve += Auto_Reserve;
+            auto.Reserve += xas;
           
             
             IAuto HupController = auto;
@@ -35,12 +35,13 @@ namespace ErweiterteOOP
             Console.WriteLine("Hello World!");
         }
 
-
-
-        private static void Auto_Reserve(object sender,TankEventArgs e)
+        private static void xas(KlasseAuto sender, TankEventArgs e)
         {
-            Console.WriteLine(e.Message);
+           Console.WriteLine("Event"+ sender);
+
         }
+
+      
 
 
 

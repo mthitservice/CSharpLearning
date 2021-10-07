@@ -1,0 +1,13 @@
+C:\Users\Michael.Lindner\Source\Repos\CSharpLearning\GenerischeKlassen\bin\Debug\netcoreapp3.1\GenerischeKlassen.exe
+C:\Users\Michael.Lindner\Source\Repos\CSharpLearning\GenerischeKlassen\bin\Debug\netcoreapp3.1\GenerischeKlassen.deps.json
+C:\Users\Michael.Lindner\Source\Repos\CSharpLearning\GenerischeKlassen\bin\Debug\netcoreapp3.1\GenerischeKlassen.runtimeconfig.json
+C:\Users\Michael.Lindner\Source\Repos\CSharpLearning\GenerischeKlassen\bin\Debug\netcoreapp3.1\GenerischeKlassen.runtimeconfig.dev.json
+C:\Users\Michael.Lindner\Source\Repos\CSharpLearning\GenerischeKlassen\bin\Debug\netcoreapp3.1\GenerischeKlassen.dll
+C:\Users\Michael.Lindner\Source\Repos\CSharpLearning\GenerischeKlassen\bin\Debug\netcoreapp3.1\GenerischeKlassen.pdb
+C:\Users\Michael.Lindner\Source\Repos\CSharpLearning\GenerischeKlassen\obj\Debug\netcoreapp3.1\GenerischeKlassen.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Michael.Lindner\Source\Repos\CSharpLearning\GenerischeKlassen\obj\Debug\netcoreapp3.1\GenerischeKlassen.AssemblyInfoInputs.cache
+C:\Users\Michael.Lindner\Source\Repos\CSharpLearning\GenerischeKlassen\obj\Debug\netcoreapp3.1\GenerischeKlassen.AssemblyInfo.cs
+C:\Users\Michael.Lindner\Source\Repos\CSharpLearning\GenerischeKlassen\obj\Debug\netcoreapp3.1\GenerischeKlassen.csproj.CoreCompileInputs.cache
+C:\Users\Michael.Lindner\Source\Repos\CSharpLearning\GenerischeKlassen\obj\Debug\netcoreapp3.1\GenerischeKlassen.dll
+C:\Users\Michael.Lindner\Source\Repos\CSharpLearning\GenerischeKlassen\obj\Debug\netcoreapp3.1\GenerischeKlassen.pdb
+C:\Users\Michael.Lindner\Source\Repos\CSharpLearning\GenerischeKlassen\obj\Debug\netcoreapp3.1\GenerischeKlassen.genruntimeconfig.cache
