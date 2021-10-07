@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.Text;
+using System.Text.Json;
 using System.Xml.Serialization;
 
 namespace Serialisierung
@@ -27,7 +28,8 @@ namespace Serialisierung
         public void start()
         {
             // laden(@"c:\temp\autos.xyz");
-            ladenXML(@"c:\temp\autos.xml");
+            // ladenXML(@"c:\temp\autos.xml");
+            ladenJSON(@"c:\temp\autos.json");
             // 3 Autos hinzufügen
             Auto a1 = new Auto();
             a1.Breite = 16;
@@ -50,7 +52,8 @@ namespace Serialisierung
 
             // Speichern
             // this.speichern(@"c:\temp\autos.xyz");
-            speichernXML(@"c:\temp\autos.xml");
+            // speichernXML(@"c:\temp\autos.xml");
+            speichernJSON(@"c:\temp\autos.json");
             // Zeige Fahrzeuge
             this.zeigeFahrzeuge(Autoliste);
             // Warte auf Taste
@@ -84,6 +87,21 @@ namespace Serialisierung
 
 
         }
+        void ladenJSON(string pfad)
+        {
+            // Text Laden
+           var fs = File.ReadAllText(pfad);
+            // Serialisierungsobjekt
+            List<Auto> templ;
+           templ=(List<Auto>) JsonSerializer.Deserialize<List<Auto>>(fs);
+            Autoliste = templ;
+       
+
+
+
+
+
+        }
 
         void speichernXML(string pfad)
         {
@@ -104,6 +122,24 @@ namespace Serialisierung
             fs.Flush();
             fs.Close();
             fs.Dispose();
+
+
+
+        }
+
+        void speichernJSON(string pfad)
+        {
+            // Filestream zum speichern von Dateien öffnen
+            Stream fs = File.OpenWrite(pfad);
+            // Serialisierungsobjekt
+            JsonSerializer.SerializeAsync(fs, Autoliste);
+
+            fs.Flush();
+            fs.Close();
+            fs.Dispose();
+           
+
+
 
 
 
