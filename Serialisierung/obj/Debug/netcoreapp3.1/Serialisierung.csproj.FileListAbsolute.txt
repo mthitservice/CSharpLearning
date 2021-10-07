@@ -1,0 +1,14 @@
+C:\Users\Michael.Lindner\Source\Repos\CSharpLearning\Serialisierung\bin\Debug\netcoreapp3.1\Serialisierung.exe
+C:\Users\Michael.Lindner\Source\Repos\CSharpLearning\Serialisierung\bin\Debug\netcoreapp3.1\Serialisierung.deps.json
+C:\Users\Michael.Lindner\Source\Repos\CSharpLearning\Serialisierung\bin\Debug\netcoreapp3.1\Serialisierung.runtimeconfig.json
+C:\Users\Michael.Lindner\Source\Repos\CSharpLearning\Serialisierung\bin\Debug\netcoreapp3.1\Serialisierung.runtimeconfig.dev.json
+C:\Users\Michael.Lindner\Source\Repos\CSharpLearning\Serialisierung\bin\Debug\netcoreapp3.1\Serialisierung.dll
+C:\Users\Michael.Lindner\Source\Repos\CSharpLearning\Serialisierung\bin\Debug\netcoreapp3.1\Serialisierung.pdb
+C:\Users\Michael.Lindner\Source\Repos\CSharpLearning\Serialisierung\obj\Debug\netcoreapp3.1\Serialisierung.csproj.AssemblyReference.cache
+C:\Users\Michael.Lindner\Source\Repos\CSharpLearning\Serialisierung\obj\Debug\netcoreapp3.1\Serialisierung.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Michael.Lindner\Source\Repos\CSharpLearning\Serialisierung\obj\Debug\netcoreapp3.1\Serialisierung.AssemblyInfoInputs.cache
+C:\Users\Michael.Lindner\Source\Repos\CSharpLearning\Serialisierung\obj\Debug\netcoreapp3.1\Serialisierung.AssemblyInfo.cs
+C:\Users\Michael.Lindner\Source\Repos\CSharpLearning\Serialisierung\obj\Debug\netcoreapp3.1\Serialisierung.csproj.CoreCompileInputs.cache
+C:\Users\Michael.Lindner\Source\Repos\CSharpLearning\Serialisierung\obj\Debug\netcoreapp3.1\Serialisierung.dll
+C:\Users\Michael.Lindner\Source\Repos\CSharpLearning\Serialisierung\obj\Debug\netcoreapp3.1\Serialisierung.pdb
+C:\Users\Michael.Lindner\Source\Repos\CSharpLearning\Serialisierung\obj\Debug\netcoreapp3.1\Serialisierung.genruntimeconfig.cache

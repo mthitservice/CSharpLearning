@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrukurvsKlasse", "..\Struk
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenerischeKlassen", "..\GenerischeKlassen\GenerischeKlassen.csproj", "{3B179207-112F-4EEE-9418-8A6C6CB90E68}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serialisierung", "..\Serialisierung\Serialisierung.csproj", "{4AA936DB-743D-4E5F-BA98-F1F71201FC2F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{3B179207-112F-4EEE-9418-8A6C6CB90E68}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B179207-112F-4EEE-9418-8A6C6CB90E68}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B179207-112F-4EEE-9418-8A6C6CB90E68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AA936DB-743D-4E5F-BA98-F1F71201FC2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AA936DB-743D-4E5F-BA98-F1F71201FC2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AA936DB-743D-4E5F-BA98-F1F71201FC2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AA936DB-743D-4E5F-BA98-F1F71201FC2F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
