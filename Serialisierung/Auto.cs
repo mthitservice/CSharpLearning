@@ -6,7 +6,7 @@ namespace Serialisierung
 { // Kennzeichn das diese Klasse serialisirt werden darf
     [Serializable]
     // Modellklasse(reale Strukturen abbilden) ( ohne Funktionen)
-   public class Auto: IFahrzeug
+   public class Auto
     {
         private float _tankinhalt { get; set; }
         public int Breite { get; set; }

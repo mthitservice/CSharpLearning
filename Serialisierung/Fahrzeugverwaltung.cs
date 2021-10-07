@@ -11,7 +11,7 @@ namespace Serialisierung
    public  class Fahrzeugverwaltung: IAutoConroller
     {
         // Deklartion von Variablen
-       public  List<IFahrzeug> Autoliste;
+       public  List<Auto> Autoliste;
         //
         AnsichtenConsole ansicht;
 
@@ -19,14 +19,14 @@ namespace Serialisierung
         public Fahrzeugverwaltung()
         {
             // Instanziiere
-            Autoliste = new List<IFahrzeug>();
+            Autoliste = new List<Auto>();
             ansicht = new AnsichtenConsole();
 
         }
         // Methoden
         public void start()
         {
-            laden(@"c:\temp\autos.xyz");
+           // laden(@"c:\temp\autos.xyz");
             // 3 Autos hinzufügen
             Auto a1 = new Auto();
             a1.Breite = 16;
@@ -56,7 +56,7 @@ namespace Serialisierung
             ansicht.WartaufTaste();
         }
 
-        public void zeigeFahrzeuge(List<IFahrzeug> Fahrzeuge)
+        public void zeigeFahrzeuge(List<Auto> Fahrzeuge)
         {
             ansicht.zeigeFahrzeuge(Fahrzeuge);
         }
@@ -94,7 +94,9 @@ namespace Serialisierung
 
             // Zip 
 
-            XmlSerializer xser = new XmlSerializer(typeof(List<IFahrzeug>));
+
+
+            XmlSerializer xser = new XmlSerializer(typeof(List<Auto>));
             xser.Serialize(fs, Autoliste);
 
           
@@ -111,7 +113,7 @@ namespace Serialisierung
             FileStream fs = File.Open(pfad,FileMode.Open);
             // Serialisierungsobjekt
             BinaryFormatter formatter = new BinaryFormatter();
-            List<IFahrzeug> templist = (List<IFahrzeug>)formatter.Deserialize(fs);
+            List<Auto> templist = (List<Auto>)formatter.Deserialize(fs);
 
 
             Autoliste = templist;

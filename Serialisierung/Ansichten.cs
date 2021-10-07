@@ -6,7 +6,7 @@ namespace Serialisierung
 {
     public class AnsichtenConsole : IAutoConroller
     {
-        public void zeigeFahrzeuge(List<IFahrzeug> Fahrzeuge)
+        public void zeigeFahrzeuge(List<Auto> Fahrzeuge)
         {
             foreach (var o in Fahrzeuge)
             {

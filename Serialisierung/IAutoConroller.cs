@@ -6,7 +6,7 @@ namespace Serialisierung
 {
     public interface IAutoConroller
     {
-        void zeigeFahrzeuge(List<IFahrzeug> Fahrzeuge);
+        void zeigeFahrzeuge(List<Auto> Fahrzeuge);
 
     }
 
