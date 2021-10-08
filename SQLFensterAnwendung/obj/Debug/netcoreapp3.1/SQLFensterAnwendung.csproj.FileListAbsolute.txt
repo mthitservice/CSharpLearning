@@ -18,3 +18,11 @@ C:\Users\Michael.Lindner\Source\Repos\CSharpLearning\SQLFensterAnwendung\obj\Deb
 C:\Users\Michael.Lindner\Source\Repos\CSharpLearning\SQLFensterAnwendung\obj\Debug\netcoreapp3.1\SQLFensterAnwendung.dll
 C:\Users\Michael.Lindner\Source\Repos\CSharpLearning\SQLFensterAnwendung\obj\Debug\netcoreapp3.1\SQLFensterAnwendung.pdb
 C:\Users\Michael.Lindner\Source\Repos\CSharpLearning\SQLFensterAnwendung\obj\Debug\netcoreapp3.1\SQLFensterAnwendung.genruntimeconfig.cache
+C:\Users\Michael.Lindner\Source\Repos\CSharpLearning\SQLFensterAnwendung\bin\Debug\netcoreapp3.1\SQLFensterAnwendung.dll.config
+C:\Users\Michael.Lindner\Source\Repos\CSharpLearning\SQLFensterAnwendung\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\Michael.Lindner\Source\Repos\CSharpLearning\SQLFensterAnwendung\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Michael.Lindner\Source\Repos\CSharpLearning\SQLFensterAnwendung\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Michael.Lindner\Source\Repos\CSharpLearning\SQLFensterAnwendung\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Michael.Lindner\Source\Repos\CSharpLearning\SQLFensterAnwendung\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Michael.Lindner\Source\Repos\CSharpLearning\SQLFensterAnwendung\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Michael.Lindner\Source\Repos\CSharpLearning\SQLFensterAnwendung\obj\Debug\netcoreapp3.1\SQLFensterAnwendung.csproj.CopyComplete
