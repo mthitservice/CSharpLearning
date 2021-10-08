@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SQLFensterAnwendung.Models;
+using System;
 using System.Collections.Generic;
 using System.Configuration;
 using System.Data.SqlClient;
@@ -14,6 +15,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Microsoft.EntityFrameworkCore.Design;
+using Microsoft.EntityFrameworkCore;
 
 namespace SQLFensterAnwendung
 {
@@ -43,6 +46,9 @@ namespace SQLFensterAnwendung
             builder.Password = Passwort;
             builder.InitialCatalog = "dbCanon";
             txt_Connection.Text = builder.ConnectionString;
+
+            zugriffueberEF();
+            return;
             using (SqlConnection connection = new SqlConnection(builder.ConnectionString))
             {
 
@@ -68,5 +74,46 @@ namespace SQLFensterAnwendung
             // Schließen der Verbindung
 
         }
+
+        public void zugriffueberEF()
+        {
+
+            var context = new dbCanonContext();
+            var Adressen = context.Addresses.ToList();
+            // Parametrisierter Aufruf
+            int? id = 185;
+           
+            var ad = context.Addresses.FromSqlRaw("SELECT *  FROM [SalesLT].[Address] where AddressId={0}",id).ToList();
+         //   List<SqlParameter> plist = new List<SqlParameter>();
+         //   plist.Add(param);
+
+         //   var daten = context.Database.ExecuteSqlRaw("SELECT *  FROM [SalesLT].[Address] where AddressId=@id", plist.ToArray());
+           // var ad = context.Addresses.Where(r => r.AddressId == id).FirstOrDefault();
+
+
+
+
+
+
+
+            //using (var context = new dbCanonContext())
+            //{
+            //    var DieAdresse = new Address()
+            //    { AddressLine1 ="Wilhelm Külz", City ="Kamenz" , PostalCode="01917"
+
+            //     };
+            //    context.Addresses.Add(DieAdresse);
+            //    context.SaveChanges();
+
+
+
+
+            //}
+
+
+
+        }
+
+
     }
 }

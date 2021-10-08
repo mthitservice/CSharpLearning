@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenerischeKlassen", "..\Gen
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Serialisierung", "..\Serialisierung\Serialisierung.csproj", "{4AA936DB-743D-4E5F-BA98-F1F71201FC2F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLFensterAnwendung", "..\SQLFensterAnwendung\SQLFensterAnwendung.csproj", "{9F6A2EA2-8BD4-4E0E-A624-345CE13DD9A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SQLFensterAnwendung", "..\SQLFensterAnwendung\SQLFensterAnwendung.csproj", "{9F6A2EA2-8BD4-4E0E-A624-345CE13DD9A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiThread", "..\MultiThread\MultiThread.csproj", "{6B9BE6C6-20B4-4F92-B709-CF53FE74C271}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{9F6A2EA2-8BD4-4E0E-A624-345CE13DD9A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F6A2EA2-8BD4-4E0E-A624-345CE13DD9A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F6A2EA2-8BD4-4E0E-A624-345CE13DD9A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B9BE6C6-20B4-4F92-B709-CF53FE74C271}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B9BE6C6-20B4-4F92-B709-CF53FE74C271}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B9BE6C6-20B4-4F92-B709-CF53FE74C271}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B9BE6C6-20B4-4F92-B709-CF53FE74C271}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
