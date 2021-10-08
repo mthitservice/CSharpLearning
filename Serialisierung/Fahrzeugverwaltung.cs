@@ -131,18 +131,17 @@ namespace Serialisierung
 
         void speichernJSON(string pfad)
         {
-                    
 
-                // Filestream zum speichern von Dateien öffnen
-                using (Stream fs = File.OpenWrite(pfad))
-                {
-                    //Komprimierungsstream
-                    using (GZipStream zip = new GZipStream(fs, CompressionMode.Compress))
-                    {
-                        // Serialisierungsobjekt
 
-                        JsonSerializer.SerializeAsync(zip, Autoliste);
-                    }
+
+            // Filestream zum speichern von Dateien öffnen
+            using (Stream fs = File.OpenWrite(pfad))
+            {
+                //Komprimierungsstream
+                 // Serialisierungsobjekt
+                   
+                    JsonSerializer.SerializeAsync(fs, Autoliste);
+           
 
                 }
 
