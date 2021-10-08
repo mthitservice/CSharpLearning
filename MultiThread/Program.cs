@@ -1,5 +1,6 @@
 ﻿ using System;
 using System.Threading;
+using System.Threading.Tasks;
 
 namespace MultiThread
 {
@@ -14,6 +15,8 @@ namespace MultiThread
 
             thr1.Start();
             thr2.Start();
+
+            Task t1 = Task.Run(() => MultiTh.meth1());
 
             Console.WriteLine("Hello World!");
         }

@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SQLFensterAnwendung"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800"
+        Title="MainWindow" Height="950" Width="800"
         WindowStartupLocation="CenterScreen"  >
     <Grid >
         <Grid.ColumnDefinitions>
@@ -19,45 +19,51 @@
             <RowDefinition Height="2*"/>
 
         </Grid.RowDefinitions>
-     
-            <Grid Grid.Column="1" Grid.Row="1" >
+
+        <Grid Grid.Column="1" Grid.Row="1" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition Height="*" />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition Height="300"/>
+
+            </Grid.RowDefinitions>
+            <Label  Grid.Row="0" x:Name="label" Content="Verbindungszeichenkette" HorizontalAlignment="Stretch" VerticalAlignment="Center"/>
+            <TextBox x:Name="txt_Connection" Padding="5" HorizontalAlignment="Stretch" Grid.Row="1" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top"/>
+            <Label x:Name="label1" Content="SQL Befehl" HorizontalAlignment="Stretch"  Grid.Row="2" VerticalAlignment="Center"/>
+            <TextBox x:Name="txt_SQL"  Padding="5"   HorizontalAlignment="Stretch" Grid.Row="3" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top"/>
+            <TextBox x:Name="txt_Result"     Padding="5" HorizontalAlignment="Stretch" Grid.Row="4" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" />
+            <Grid Grid.Row="5">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition />
-
+                    <ColumnDefinition />
                 </Grid.ColumnDefinitions>
                 <Grid.RowDefinitions>
                     <RowDefinition />
-                    <RowDefinition />
-                    <RowDefinition />
-                    <RowDefinition />
-                    <RowDefinition Height="*" />
-                    <RowDefinition />
 
                 </Grid.RowDefinitions>
-                <Label  Grid.Row="0" x:Name="label" Content="Verbindungszeichenkette" HorizontalAlignment="Stretch" VerticalAlignment="Center"/>
-                <TextBox x:Name="txt_Connection" Padding="5" HorizontalAlignment="Stretch" Grid.Row="1" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top"/>
-                <Label x:Name="label1" Content="SQL Befehl" HorizontalAlignment="Stretch"  Grid.Row="2" VerticalAlignment="Center"/>
-            <TextBox x:Name="txt_SQL"  Padding="5"   HorizontalAlignment="Stretch" Grid.Row="3" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top"/>
-                <TextBox x:Name="txt_Result"     Padding="5" HorizontalAlignment="Stretch" Grid.Row="4" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" />
-                <Grid Grid.Row="5">
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition />
-                        <ColumnDefinition />
-                    </Grid.ColumnDefinitions>
-                    <Grid.RowDefinitions>
-                        <RowDefinition />
-                    </Grid.RowDefinitions>
-                    <Button x:Name="button" Width="200"  Padding="5" Content="SQL Ausführen" HorizontalAlignment="Center"  VerticalAlignment="Top" Click="button_Click"/>
-                    <Button x:Name="button1" Width="200" Padding="5" Content="Beenden" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Top"/>
-
-                </Grid>
-
-
-
-
+                <Button x:Name="button" Width="200"  Padding="5" Content="SQL Ausführen" HorizontalAlignment="Center"  VerticalAlignment="Top" Click="button_Click"/>
+                <Button x:Name="button1" Width="200" Padding="5" Content="Beenden" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Top"/>
 
             </Grid>
-        
+            <ProgressBar x:Name="Progress1" HorizontalAlignment="Stretch"  Height="Auto" Width="Auto" Grid.Row="6" VerticalAlignment="Stretch" Padding="6"/>
+          
+            <ListBox x:Name="lbResults" Margin="0,10,0,9"  Grid.Row="8"/>
+
+
+
+
+        </Grid>
+
 
     </Grid>
 </Window>
